@@ -5,7 +5,13 @@ CONFIG -= qt
 
 SOURCES += \
         Punto1.cpp \
-        main.cpp
+        main.cpp \
+        punto2.cpp \
+        punto3.cpp \
+        punto4.cpp
 
 HEADERS += \
-    Punto1.h
+    Punto1.h \
+    punto2.h \
+    punto3.h \
+    punto4.h
