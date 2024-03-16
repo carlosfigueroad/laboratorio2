@@ -1,15 +1,6 @@
-// Se incluye la biblioteca string
-#include <string>
+#ifndef PUNTO3_H  // Verificación de definición previa de PUNTO3_H.
+#define PUNTO3_H  // Definición de PUNTO3_H si no está definido.
 
-// Se declara la clase Punto con sus atributos públicos
-class Punto {
-public:
-    int x, y;
-    // Se declara el constructor de la clase Punto
-    Punto(int x, int y) : x(x), y(y) {}
-};
+void ejercicio3();  // Declaración de la función ejercicio3.
 
-// Se declara el operador de comparación para la clase Punto
-bool operator==(const Punto& coordenada1, const Punto& coordenada2);
-// Se declara la función ejercicio3
-void ejercicio3();
+#endif // PUNTO3_H  // Fin de la condición de preprocesador.

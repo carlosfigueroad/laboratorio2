@@ -1,4 +1,3 @@
-// Se incluye el archivo de encabezado "Punto2.h"
 #include "punto2.h"
 
 // Definición de la función "ejercicio2"

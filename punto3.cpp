@@ -1,27 +1,24 @@
-// Se incluye el archivo de encabezado "Punto3.h"
-#include "punto3.h"
-#include <iostream>
+#include "punto3.h"  // Inclusión del archivo de cabecera punto3.h.
+#include <iostream>  // Inclusión de la biblioteca de entrada y salida.
+#include <string>    // Inclusión de la biblioteca de manejo de cadenas.
 
-// Definición del operador de comparación para la clase Punto
-bool operator==(const Punto& coordenada1, const Punto& coordenada2) {
-    // Compara las coordenadas x e y de los dos puntos
-    if (coordenada1.x == coordenada2.x && coordenada1.y == coordenada2.y) {
-        return true;
-    }
-    return false;
-}
+void ejercicio3() {  // Definición de la función ejercicio3.
+    std::string cadena1;  // Declaración de la variable cadena1.
+    std::string cadena2;  // Declaración de la variable cadena2.
+    std::string descartar;  // Declaración de una cadena para descartar la entrada residual.
 
-// Definición de la función "ejercicio3"
-void ejercicio3() {
-    // Se crean dos objetos de la clase Punto
-    Punto punto1(5, 4);
-    Punto punto2(5, 4);
-    // Se compara si los dos puntos son iguales
-    bool resultado = (punto1 == punto2);
-    // Se imprime el resultado de la comparación
-    if (resultado) {
-        std::cout << "Los puntos son iguales." << std::endl;
+    std::getline(std::cin, descartar);  // Descartar la entrada residual.
+
+    std::cout << "Ingresa la primera cadena: ";  // Solicitud de la primera cadena.
+    std::getline(std::cin, cadena1);             // Lectura de la primera cadena.
+
+    std::cout << "Ingresa la segunda cadena: ";  // Solicitud de la segunda cadena.
+    std::getline(std::cin, cadena2);             // Lectura de la segunda cadena.
+
+    // Comparación de las cadenas cadena1 y cadena2.
+    if (cadena1 == cadena2) {
+        std::cout << "Las cadenas son iguales.\n";  // Mensaje si las cadenas son iguales.
     } else {
-        std::cout << "Los puntos no son iguales." << std::endl;
+        std::cout << "Las cadenas son diferentes.\n";  // Mensaje si las cadenas son diferentes.
     }
 }
