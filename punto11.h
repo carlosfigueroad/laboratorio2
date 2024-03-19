@@ -1,4 +1,5 @@
-#ifndef PUNTO11_H
-#define PUNTO11_H
+// Inclusión de la biblioteca de cadenas estándar de C++
+#include <string>
 
-#endif // PUNTO11_H
+// Declaración de la función ejercicio11 que no necesita parámetros y no devuelve nada (void)
+void ejercicio11();

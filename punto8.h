@@ -1,4 +1,5 @@
-#ifndef PUNTO8_H
-#define PUNTO8_H
+// Inclusión de la biblioteca de cadenas estándar de C++
+#include <string>
 
-#endif // PUNTO8_H
+// Declaración de la función ejercicio8 que no necesita parámetros y no devuelve nada (void)
+void ejercicio8();
